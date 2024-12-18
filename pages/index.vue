@@ -83,7 +83,6 @@
     ></ImageTestimonialAtlas>
   </div>
 
-  <DegreeCard />
 
   </template>
 
