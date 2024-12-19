@@ -91,6 +91,6 @@ import bgImage from '@/assets/images/hero.png';
 import sectionImg from '@/assets/images/section.png';
 import accImg from '@/assets/images/acc.png';
 import testimonialImage from '@/assets/images/testimonial.png';
-import testimonialBG from '@/assets/images/testimonialBG.jpg';
+import testimonialBG from '@/assets/images/testimonialBg.jpg';
 
 </script>
