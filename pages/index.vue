@@ -58,7 +58,7 @@
     </template>
   </SectionIntroFalcon>
 
-  <div class="container py-space-lg py-lg-space-xxl"
+  <div class="py-space-lg py-lg-space-xxl"
   :style="{ backgroundImage: `url(${testimonialBG})` }"
   >
     <!-- Section Title -->
@@ -83,6 +83,29 @@
     ></ImageTestimonialAtlas>
   </div>
 
+  <DegreeCard />
+
+
+  <FooterStandard
+    class="mb-space-md mb-lg-0"
+    @tertiaryMenuLinkClick="triggerHandleEvent"
+  >
+    <template #secondary-menu>
+      <nav class="nav grid-flex-menu order-2 order-lg-1 mb-space-s mb-lg-0 px-space-l">
+        <a
+          v-for="(item, index) in sectionFooter.primaryItems"
+          :key="index"
+          :href="item.uri"
+          :target="formatLinkTarget(item.target)"
+          class="nav-link text-dark-3 menu-item fw-bold py-space-xxs py-lg-0"
+          rel="noopener noreferrer"
+          @click="triggerDlFooterSection(item.text)"
+        >
+          {{ item.text }}
+        </a>
+      </nav>
+    </template>
+  </FooterStandard>
 
   </template>
 
@@ -93,4 +116,39 @@ import accImg from '@/assets/images/acc.png';
 import testimonialImage from '@/assets/images/testimonial.png';
 import testimonialBG from '@/assets/images/testimonialBg.jpg';
 
+
+const sectionFooter = ref({
+  primaryItems: [
+    {
+      text: "Maps and Locations",
+      
+    },
+    {
+      text: "Jobs",
+      
+    },
+    {
+      text: "Directory",
+     
+    },
+    {
+      text: "Contact ASU",
+  
+    },
+    {
+      text: "My ASU",
+    },
+  ],
+});
+function formatLinkTarget(target) {
+  return target || "_self"; 
+}
 </script>
+
+<style lang="scss">
+nav.grid-flex-menu {
+  justify-items: start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+</style>

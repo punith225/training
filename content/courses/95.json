@@ -1,0 +1,52 @@
+{
+    "id": 95,
+    "code": "UGLA-LAPOSBS",
+    "degreeImage": "https://live-asuocms.ws.asu.edu/sites/default/files/program-images/Frank-Smith-III-CONGRESS_0.jpg",
+    "title": "Political Science (BS)",
+    "weeksPerClass": "7.5",
+    "nextStartDate": "2024-01-08",
+    "totalCreditHours": "120",
+    "totalClasses": "40",
+    "shortDescription": "<p>The Bachelor of Science in political science focuses on the relationship between citizens and their governments. As a student in this bachelor's in political science program, you’ll build an in-depth understanding of how political theory and policy connect to practical issues. During your studies, you’ll develop skills that are applicable in business, politics, government and nonprofit careers.</p>\n",
+    "category": "Undergraduate",
+    "interestareas": [
+        "Law, criminal justice and public service",
+        "Social Sciences"
+    ],
+    "featuredCourses": {
+        "title": "Online political science degree courses",
+        "description": "<p>This political science degree offers a variety of courses and opportunities to study politics and public policy at the local, national and global levels. While completing your courses, you'll have the opportunity to complete an internship, allowing you to gain real-world experience. Featured courses include: </p>\n",
+        "items": [
+            {
+                "category": null,
+                "title": "POS 210: Political Ideologies (SB)",
+                "description": "Leading political ideas and belief systems, e.g., Marxism, liberalism, conservatism, theories of democracy, and alternative futures."
+            },
+            {
+                "category": null,
+                "title": "POS 301: Empirical Political Inquiry (SB)",
+                "description": "Logic of political inquiry, including research problems, concepts, hypotheses, theories, measurement, data collection, and analysis. "
+            },
+            {
+                "category": null,
+                "title": "POS 401: Political Statistics (CS)",
+                "description": "Basic concepts in statistics as they facilitate the description, explanation, and prediction of social and political phenomena. "
+            },
+            {
+                "category": null,
+                "title": "POS 150: Comparative Government (SB & G)",
+                "description": "Political institutions and processes in selected foreign countries, including origins, strengths, and weaknesses of contemporary political systems and political development."
+            },
+            {
+                "category": null,
+                "title": "POS 160: Global Politics (SB & G)",
+                "description": "Nature of contemporary world politics through the study of both general theoretical topics and specific geographical areas."
+            },
+            {
+                "category": null,
+                "title": "POS 110: American Government and Politics (SB)",
+                "description": "Major institutions of modern government and processes of individual and group political activity, with emphasis on the American experience. Meets the federal government requirement for teacher certification."
+            }
+        ]
+    }
+}

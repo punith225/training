@@ -1,0 +1,134 @@
+{
+  "metaTitle": "Earn a Political Science or Global Studies Degree Online",
+  "metaDescription": "Prepare to make an impact as a global citizen when you earn a political science or global studies degree through ASU Online.",
+  "sectionHero": {
+    "title": "Earn a political science or global studies degree online",
+    "image": "heroImage.png"
+  },
+  "sectionScrollSpy": {
+    "title": "On this page:",
+    "navItems": {
+      "section_overview": "Overview",
+      "section_accreditation": "Accreditation",
+      "section_degrees": "Degrees"
+    },
+    "cta": {
+      "label": "Request info",
+      "link": "section_rfi"
+    }
+  },
+  "sectionGlobalCitizen": {
+    "title": "Become a global citizen",
+    "text": "Arizona State University’s School of Politics and Global Studies offers degree programs designed to develop global citizens. Delivered through ASU Online, courses focus on how leaders use policy and research to solve the world’s most pressing problems in security and more. Learn how you can gain a global perspective and accomplish your goals from anywhere in the world.",
+    "image": "globalcitizen.png"
+  },
+  "sectionWhyASUOnline": {
+    "title": "Why choose ASU Online?",
+    "bgImage": "black-topo-pattern.png",
+    "cards": [
+      {
+        "title": "Leader in innovation",
+        "image": "whyAsuOnlineCard1.png",
+        "text": "ASU has been named #1 in innovation for 9 consecutive years by U.S. News & World Report. Find out what makes ASU Online unique.",
+        "cta": {
+          "text": "Learn more about ASU Online",
+          "href": "https://asuonline.asu.edu/about-us/"
+        }
+      },
+      {
+        "title": " A global top-choice university",
+        "image": "whyAsuOnlineCard2.png",
+        "text": "ASU was named a top 10 university in the U.S. chosen by international students, according to the Institute of International Education, 2022.",
+        "cta": {
+          "text": "Learn about attending ASU Online as an international student",
+          "href": "https://asuonline.asu.edu/admission/international/"
+        }
+      },
+      {
+        "title": "World-class faculty",
+        "image": "whyAsuOnlineCard3.png",
+        "text": "ASU Online courses include the same rigorous curriculum, taught by the same renowned faculty who teach on campus.",
+        "cta": {
+          "text": "Learn more about ASU Online faculty",
+          "href": "https://asuonline.asu.edu/about-us/faculty/"
+        }
+      }
+    ]
+  },
+  "sectionAccredited": {
+    "title": "Are ASU Online programs accredited?",
+    "image": "sectionAccredited.png",
+    "text": "Arizona State University is accredited by the <a href='https://www.hlcommission.org/' target='_blank' class='non-rds-link text-underline'>Higher Learning Commission (HLC)</a> to deliver all online degree programs through ASU Online. For more information on accreditation, please visit the <a href='https://provost.asu.edu/upra' target='_blank' class='non-rds-link text-underline'>University Program Review and Accreditation Office</a>.",
+    "subText": "<b>Note:</b> Students living and/or working outside of the U.S. must confirm with the relevant certifying agency if completing an online degree program at ASU meets the credentialing requirements of the country in which they seek employment."
+  },
+  "sectionWhatStudentsAreSaying": {
+    "bgImage": "topo-pattern.jpg",
+    "labelText": "What students are saying",
+    "image": "testimonialAuthor.png",
+    "text": "ASU Online has changed my opinion of how effective online education can be. I’ve received more tailor-made feedback and instruction during my time in the Master of Arts in global security than in any previous academic experience.",
+    "author": "Maddi King",
+    "designation": "ASU Online student <br> Master of Arts in global security"
+  },
+  "sectionExplorePrograms": {
+    "title": "Explore political science and global studies degree programs",
+    "text": "The School of Politics and Global Studies offers seven online degree programs, including three undergraduate and four graduate degrees. Learn more about each option below.",
+    "degreePrograms": [
+      "UGLA-LASGSBA",
+      "UGLA-LAPOSBA",
+      "UGLA-LAPOSBS",
+      "GRLA-LAGSCMA",
+      "GRLA-LAGSCSECMA",
+      "GRLA-LAIALMA",
+      "GRLA-LAPPSMA"
+    ],
+    "sidebarContents": {
+      "date": "Next Start Date:",
+      "weeks": "Weeks per class:",
+      "classes": "Total classes:",
+      "creditHours": "Total credit hours:",
+      "descriptionLabel": "Description",
+      "featuredCoursesLabel": "Featured Courses"
+    }
+  },
+  "sectionRfi": {
+    "bgimg": "rfi-bg-overlay.png",
+    "desktopImage": "rfi-card-image.jpg",
+    "mobileImage": "rfi-degree-mobile.jpg",
+    "title": "Request information",
+    "text": "To learn more about ASU Online or a specific program, fill out the form below and check your email for information on next steps.",
+    "countinueText": "Continue",
+    "submitText": "Submit",
+    "consent": "By submitting my information, I consent to ASU contacting me about educational services using automated calls, prerecorded voice messages, SMS/text messages or email at the information provided above. Message and data rates may apply. Consent is not required to receive services, and I may call ASU directly at <a  class='rfi-consent-link text-underline' href='tel:866-277-6589'>866-277-6589.</a> I consent to ASU’s mobile <a href='https://asuonline.asu.edu/text-terms/' class='rfi-consent-link text-underline ' >terms and conditions,</a> and <a href='https://asuonline.asu.edu/web-analytics-privacy-2/' class='rfi-consent-link text-underline ' >Privacy Statements,</a> including the European Supplement.",
+    "thankyouTitle": "Thank you! Your information has been submitted.",
+    "thankyouText": "We will contact you shortly to answer any questions that you may have about ASU Online. Keep exploring this site to learn more about our degree programs, support services and international student admission."
+  },
+  "sectionFooter": {
+    "primaryItems": [
+      {
+        "text": "Maps and Locations",
+        "uri": "https://www.asu.edu/map/interactive/",
+        "target": "_blank"
+      },
+      {
+        "text": "Jobs",
+        "uri": "https://cfo.asu.edu/applicant",
+        "target": "_blank"
+      },
+      {
+        "text": "Directory",
+        "uri": "https://isearch.asu.edu/asu-people/",
+        "target": "_blank"
+      },
+      {
+        "text": "Contact ASU",
+        "uri": "https://www.asu.edu/about/contact",
+        "target": "_blank"
+      },
+      {
+        "text": "My ASU",
+        "uri": "https://weblogin.asu.edu/cas/login?service=https%3A%2F%2Fweblogin.asu.edu%2Fcgi-bin%2Fcas-login%3Fcallapp%3Dhttps%253A%252F%252Fwebapp4.asu.edu%252Fmyasu%252F%253Finit%253Dfalse",
+        "target": "_blank"
+      }
+    ]
+  }
+}

@@ -719,7 +719,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@floating-ui/vue@npm:^1.0.2":
+"@floating-ui/vue@npm:^1.0.2, @floating-ui/vue@npm:^1.0.7":
   version: 1.1.5
   resolution: "@floating-ui/vue@npm:1.1.5"
   dependencies:
@@ -734,6 +734,13 @@ __metadata:
   version: 6.7.1
   resolution: "@fortawesome/fontawesome-common-types@npm:6.7.1"
   checksum: 10c0/0345b896ad8df26fb823893ce0a405dd513e9ef34878dd7b94fbbbabe370379bf680a32199bcaaf7346acbcd2a10bf0072e305829b49e5d9b0bf1c5315d07c96
+  languageName: node
+  linkType: hard
+
+"@fortawesome/fontawesome-common-types@npm:6.7.2":
+  version: 6.7.2
+  resolution: "@fortawesome/fontawesome-common-types@npm:6.7.2"
+  checksum: 10c0/0785df560542d9c08a0ba07bb7a39902274a3cd65c018672eb2520a99efccce18bdb7f7f4b1c6089763bc5627bf0f0837c3af963a8427eaeb535bd57c820a723
   languageName: node
   linkType: hard
 
@@ -752,6 +759,15 @@ __metadata:
   dependencies:
     "@fortawesome/fontawesome-common-types": "npm:6.7.1"
   checksum: 10c0/9b6e6ba383dfc456020b77a600edcccaf8131ebd472038bd6b6f2425f011c8c63c0a6049d798dc120512b9c5332043eb46bb815d9d55c56ebdf8ecc94afb0184
+  languageName: node
+  linkType: hard
+
+"@fortawesome/free-solid-svg-icons@npm:^6.5.1":
+  version: 6.7.2
+  resolution: "@fortawesome/free-solid-svg-icons@npm:6.7.2"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": "npm:6.7.2"
+  checksum: 10c0/e900f3bb7b7d821421f11439ff78cd2b3c98ca31e848e1afebf7caa578d29a31fb6cf8ef283d4df342de777126a71fcbb154dd395b9d9ab6914a40a86df81413
   languageName: node
   linkType: hard
 
@@ -1382,6 +1398,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rds-vue-ui/footer-standard@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "@rds-vue-ui/footer-standard@npm:0.2.1"
+  dependencies:
+    lozad: "npm:^1.16.0"
+    vue: "npm:^3.4.31"
+  checksum: 10c0/e74ce9204171fa1b34010a2eb2e99ae8f20534447b612dc040b1afab2fc2826f612add1a306929ae05670af3668d844d8e4c1d9838b27a71b3727fc0a88d7ae7
+  languageName: node
+  linkType: hard
+
 "@rds-vue-ui/header-standard@npm:^0.2.1":
   version: 0.2.1
   resolution: "@rds-vue-ui/header-standard@npm:0.2.1"
@@ -1478,6 +1504,22 @@ __metadata:
     lozad: "npm:^1.16.0"
     vue: "npm:^3.4.31"
   checksum: 10c0/75dc14df24c393721a8c06af53a96c9469d41551eccb23d6c1cdc7caa55d4dda1b5d1b38aa8a4d76560ee318021f9f8d096ffddd2d1a65c1e54ced725c054140
+  languageName: node
+  linkType: hard
+
+"@rds-vue-ui/typeahead-select@npm:^0.0.3":
+  version: 0.0.3
+  resolution: "@rds-vue-ui/typeahead-select@npm:0.0.3"
+  dependencies:
+    "@floating-ui/vue": "npm:^1.0.7"
+    "@fortawesome/fontawesome-svg-core": "npm:^6.5.1"
+    "@fortawesome/free-solid-svg-icons": "npm:^6.5.1"
+    "@fortawesome/vue-fontawesome": "npm:^3.0.3"
+    "@vueuse/core": "npm:^10.9.0"
+    "@vueuse/integrations": "npm:^10.7.2"
+    fuse.js: "npm:^7.0.0"
+    vue: "npm:^3.4.31"
+  checksum: 10c0/d5bbb0730a24e66596cdfe3356c2d78fe00d24d235ca5942e382d6d67f773037067283a2cc26ad38d467922886d7747223356196a4e6c22a547c42525e0817a8
   languageName: node
   linkType: hard
 
@@ -2158,7 +2200,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:^10.4.1, @vueuse/core@npm:^10.6.1, @vueuse/core@npm:^10.9.0":
+"@vueuse/core@npm:10.11.1, @vueuse/core@npm:^10.4.1, @vueuse/core@npm:^10.6.1, @vueuse/core@npm:^10.9.0":
   version: 10.11.1
   resolution: "@vueuse/core@npm:10.11.1"
   dependencies:
@@ -2167,6 +2209,55 @@ __metadata:
     "@vueuse/shared": "npm:10.11.1"
     vue-demi: "npm:>=0.14.8"
   checksum: 10c0/6a974c1510ce84e652e3d180a4f4373e37e59a5ec025a7a8cec7f144a4ccff25dbdd82e3143ffb057323f467a1076b39da30953981e822c4bd41a7841121afee
+  languageName: node
+  linkType: hard
+
+"@vueuse/integrations@npm:^10.7.2":
+  version: 10.11.1
+  resolution: "@vueuse/integrations@npm:10.11.1"
+  dependencies:
+    "@vueuse/core": "npm:10.11.1"
+    "@vueuse/shared": "npm:10.11.1"
+    vue-demi: "npm:>=0.14.8"
+  peerDependencies:
+    async-validator: ^4
+    axios: ^1
+    change-case: ^4
+    drauu: ^0.3
+    focus-trap: ^7
+    fuse.js: ^6
+    idb-keyval: ^6
+    jwt-decode: ^3
+    nprogress: ^0.2
+    qrcode: ^1.5
+    sortablejs: ^1
+    universal-cookie: ^6
+  peerDependenciesMeta:
+    async-validator:
+      optional: true
+    axios:
+      optional: true
+    change-case:
+      optional: true
+    drauu:
+      optional: true
+    focus-trap:
+      optional: true
+    fuse.js:
+      optional: true
+    idb-keyval:
+      optional: true
+    jwt-decode:
+      optional: true
+    nprogress:
+      optional: true
+    qrcode:
+      optional: true
+    sortablejs:
+      optional: true
+    universal-cookie:
+      optional: true
+  checksum: 10c0/ba7f5fc5c5952a19836a92e8a4a4ef26a28d2fa2444dff0e1f363186766f9f6ad97155911e731e5f149d9da7dee4ecdef463972a723d0c0d45a4dd7363d3d058
   languageName: node
   linkType: hard
 
@@ -3779,6 +3870,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fuse.js@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "fuse.js@npm:7.0.0"
+  checksum: 10c0/3574b7fc2e0ccb047e05dbe5f8f04e8f0754f62fa209669ef426ea1354a32ae7355620788af8f1d29f94e1fdecd513f1f3787f012848a31ec90bb4e0e6092504
+  languageName: node
+  linkType: hard
+
 "gensync@npm:^1.0.0-beta.2":
   version: 1.0.0-beta.2
   resolution: "gensync@npm:1.0.0-beta.2"
@@ -5231,6 +5329,7 @@ __metadata:
     "@rds-vue-ui/card-degree-text": "npm:^0.3.8"
     "@rds-vue-ui/card-image-tile": "npm:^0.1.8"
     "@rds-vue-ui/carousel-card-apollo": "npm:^0.2.3"
+    "@rds-vue-ui/footer-standard": "npm:^0.2.1"
     "@rds-vue-ui/header-standard": "npm:^0.2.1"
     "@rds-vue-ui/hero-standard-apollo": "npm:^0.2.2"
     "@rds-vue-ui/image-testimonial-atlas": "npm:^0.1.6"
@@ -5238,6 +5337,7 @@ __metadata:
     "@rds-vue-ui/navbar-sticky-atlas": "npm:^0.1.12"
     "@rds-vue-ui/rds-theme-base": "npm:^0.5.2"
     "@rds-vue-ui/section-intro-falcon": "npm:^0.1.9"
+    "@rds-vue-ui/typeahead-select": "npm:^0.0.3"
     nuxt: "npm:^3.14.1592"
     saas: "npm:^1.0.0"
     sass: "npm:^1.83.0"
