@@ -12,7 +12,11 @@ export default defineNuxtConfig({
       ignore: ["**/index.ts", "**/index.js", "**/node_modules"],
     }
   ],
-  
+  resolve: {
+    alias: {
+      'bootstrap': 'path/to/bootstrap'
+    }
+  },
 
   build:{
     transpile: ["@rds-vue-ui"]
