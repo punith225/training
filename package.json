@@ -23,6 +23,7 @@
     "@rds-vue-ui/rds-theme-base": "^0.5.2",
     "@rds-vue-ui/section-intro-falcon": "^0.1.9",
     "@rds-vue-ui/typeahead-select": "^0.0.3",
+    "bootstrap": "^5.3.3",
     "nuxt": "^3.14.1592",
     "saas": "^1.0.0",
     "vue": "latest",
