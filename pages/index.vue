@@ -3,15 +3,17 @@
   <div class="container-xl px-0">
       <section
         class="position-relative d-flex flex-column justify-content-end fixed-margin lazyLoad isLoaded"
+        
       >
       
         <HeroStandardApollo
+          class="px-space-xs"
           :bg-image-source="bgImage"
           title="Earn a political science or global studies degree online"
           title-level="h1"
           title-size="large"
           title-variant="white"
-          :gradient-opacity="0.7"
+          
         >
         </HeroStandardApollo>
       </section>
@@ -85,8 +87,98 @@
 
   <DegreeCard />
 
+  <CustomRfiContainer
+      bgImageSource="rfi-bg-overlay.png"
+      desktopImage="rfi-card-image.jpg"
+      mobileImage="rfi-degree-mobile.jpg"
+    >
+      <template #title>
+        <div v-if="!success">
+          <p class="text-small pb-space-xxs fw-bold m-0">
+            Step 1 of 2
+          </p>
+          <h1 class="h1-small">Get started today</h1>
+        </div>
+      </template>
+      <template #text>
+        <p class="py-space-xs">
+          To learn more about ASU Online or a specific program, fill out the
+          form below and check your email for information on next steps.
+        </p>
+      </template>
+      <template #body>
+        
+          <div>
+            <p class="mb-space-sm">* Indicates a required field</p>
+            <div class="py-0 mb-space-xs mb-lg-space-md">
+              <div class="col-12 mb-space-xs mb-lg-space-md">
+                <label for="degree_types" class="form-label fw-bold fs-medium"
+                  >Degree options</label
+                >
+                <typeahead-select id="degree-type" v-model="modelValue" :options="options" />
+              </div>
+              <div class="col-12 mb-space-xs mb-lg-space-md">
+    <label for="area_of_interest" class="form-label fw-bold fs-medium">
+      Area of Interest
+    </label>
+    <typeahead-select id="degree-type" v-model="modelValue" :options="options" />
 
-  <FooterStandard
+  </div>
+              <div class="col-12 mb-space-xs mb-lg-space-md">
+                <label for="program" class="form-label fw-bold fs-medium"
+                  >* Program</label
+                >
+                <typeahead-select id="degree-type" v-model="modelValue" :options="options" />
+
+              </div>
+              <div class="col-12 mb-space-xs mb-lg-space-xl">
+                <p class="form-label fw-bold fs-medium">
+                  * Have you served in the U.S. military or are you a military
+                  dependent?
+                </p>
+                <div class="d-flex">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="radio_yes_option"
+                      value="true"
+                      @click="triggerRadio('yes')"
+                    />
+                    <label class="form-check-label" for="radio_yes_option">
+                      Yes
+                    </label>
+                  </div>
+                  <div class="form-check ms-space-lg">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="radio_no_option"
+                      value="false"
+                      @click="triggerRadio('no')"
+                      checked
+                    />
+                    <label class="form-check-label" for="radio_no_option">
+                      No
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div align="right">
+              <button
+                class="btn btn-secondary fs-large px-space-lg disabled"
+                @click="triggerDlContinueClick('continue', 'step 1 of 2')"
+              >
+                Continue
+              </button>
+            </div>
+          </div>
+      </template>
+    </CustomRfiContainer>
+    <FooterStandard
     class="mb-space-md mb-lg-0"
     @tertiaryMenuLinkClick="triggerHandleEvent"
   >
@@ -109,14 +201,20 @@
 
   </template>
 
-<script setup>
+<script setup lang="ts">
 import bgImage from '@/assets/images/hero.png';
 import sectionImg from '@/assets/images/section.png';
 import accImg from '@/assets/images/acc.png';
 import testimonialImage from '@/assets/images/testimonial.png';
 import testimonialBG from '@/assets/images/testimonialBg.jpg';
 
-
+const modelValue = ref<OptionType | null>(null);
+const options: OptionType[] = [
+  { text: "Undergrad", value: "undergrad" },
+  { text: "Undergrad ( Non-degree )", value: "undergrad-non-degree" },
+  { text: "Grad", value: "grad" },
+  { text: "Certificate", value: "certificate" },
+];
 const sectionFooter = ref({
   primaryItems: [
     {
@@ -143,6 +241,8 @@ const sectionFooter = ref({
 function formatLinkTarget(target) {
   return target || "_self"; 
 }
+
+
 </script>
 
 <style lang="scss">

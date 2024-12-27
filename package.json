@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@rds-vue-ui/card-degree-search": "^0.1.6",
     "@rds-vue-ui/card-degree-text": "^0.3.8",
     "@rds-vue-ui/card-image-tile": "^0.1.8",
     "@rds-vue-ui/carousel-card-apollo": "^0.2.3",
@@ -22,6 +23,7 @@
     "@rds-vue-ui/rds-theme-base": "^0.5.2",
     "@rds-vue-ui/section-intro-falcon": "^0.1.9",
     "@rds-vue-ui/typeahead-select": "^0.0.3",
+    "bootstrap": "^5.3.3",
     "nuxt": "^3.14.1592",
     "saas": "^1.0.0",
     "vue": "latest",
@@ -29,6 +31,7 @@
   },
   "packageManager": "yarn@4.5.0+sha512.837566d24eec14ec0f5f1411adb544e892b3454255e61fdef8fd05f3429480102806bac7446bc9daff3896b01ae4b62d00096c7e989f1596f2af10b927532f39",
   "devDependencies": {
+    "@types/bootstrap": "^5",
     "sass": "^1.83.0"
   }
 }

@@ -2,6 +2,7 @@
     <HeaderStandard
       logoLinkUrl=""
       logoLinkTarget="_self"
+      :isSticky="false"
     />
   </template>
   
