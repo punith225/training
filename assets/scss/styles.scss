@@ -1,0 +1,15 @@
+// importing rds base theme
+@import "@rds-vue-ui/rds-theme-base/style/rds-theme-base.scss";
+// import bootstrap dependencies
+@import "node_modules/bootstrap/scss/_functions";
+@import "node_modules/bootstrap/scss/_variables";
+@import "node_modules/bootstrap/scss/_mixins";
+// Finally load bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+// Finally load fort awesome
+@import "@fortawesome/fontawesome-svg-core/styles.css";
+
+a.non-rds-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
