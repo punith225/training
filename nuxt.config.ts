@@ -12,6 +12,8 @@ export default defineNuxtConfig({
       ignore: ["**/index.ts", "**/index.js", "**/node_modules"],
     }
   ],
+  
+
   build:{
     transpile: ["@rds-vue-ui"]
   },
