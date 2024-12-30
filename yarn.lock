@@ -1350,6 +1350,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@popperjs/core@npm:^2.9.2":
+  version: 2.11.8
+  resolution: "@popperjs/core@npm:2.11.8"
+  checksum: 10c0/4681e682abc006d25eb380d0cf3efc7557043f53b6aea7a5057d0d1e7df849a00e281cd8ea79c902a35a414d7919621fc2ba293ecec05f413598e0b23d5a1e63
+  languageName: node
+  linkType: hard
+
 "@rds-vue-ui/analytics-gs-composable@npm:^0.0.6":
   version: 0.0.6
   resolution: "@rds-vue-ui/analytics-gs-composable@npm:0.0.6"
@@ -1845,6 +1852,15 @@ __metadata:
   version: 0.2.0
   resolution: "@trysound/sax@npm:0.2.0"
   checksum: 10c0/44907308549ce775a41c38a815f747009ac45929a45d642b836aa6b0a536e4978d30b8d7d680bbd116e9dd73b7dbe2ef0d1369dcfc2d09e83ba381e485ecbe12
+  languageName: node
+  linkType: hard
+
+"@types/bootstrap@npm:^5":
+  version: 5.2.10
+  resolution: "@types/bootstrap@npm:5.2.10"
+  dependencies:
+    "@popperjs/core": "npm:^2.9.2"
+  checksum: 10c0/3e978855eb780df3907e8fe991371dc661c7a8c5b9852a10e33bcf6a909bc1481857aa8786d18b3aa828fb28660145fda0c8648265719e8a97a448b9f0158eae
   languageName: node
   linkType: hard
 
@@ -2534,7 +2550,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap@npm:^5.3.0":
+"bootstrap@npm:^5.3.0, bootstrap@npm:^5.3.3":
   version: 5.3.3
   resolution: "bootstrap@npm:5.3.3"
   peerDependencies:
@@ -5352,6 +5368,8 @@ __metadata:
     "@rds-vue-ui/rds-theme-base": "npm:^0.5.2"
     "@rds-vue-ui/section-intro-falcon": "npm:^0.1.9"
     "@rds-vue-ui/typeahead-select": "npm:^0.0.3"
+    "@types/bootstrap": "npm:^5"
+    bootstrap: "npm:^5.3.3"
     nuxt: "npm:^3.14.1592"
     saas: "npm:^1.0.0"
     sass: "npm:^1.83.0"
